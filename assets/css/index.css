@@ -1,0 +1,11 @@
+.jumbotron img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+}
+
+.top-bar {
+    border: 2px solid red;
+}
