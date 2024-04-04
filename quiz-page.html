@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="/">
                             <i class="fa fa-home" aria-hidden="true"></i>
                             Home
                         </a>
@@ -53,18 +53,24 @@
     </nav>
 
     <div class="quiz-section">
-        <form action="">
-            <input type="text" id="question" name="question"
-                value="Walk the Dog” is the name of a trick you could do using a ..."><br>
-            <div class="question-choices">
-                <input type="text" class="choices" id="choice1" name="choices" value="Deck of cards"><br>
-                <input type="text" class="choices" id="choice2" name="choices" value="Yo-Yo"><br>
-                <input type="text" class="choices" id="choice3" name="choices" value="Beyblade"><br>
-                <input type="text" class="choices" id="choice4" name="choices" value="Bicycle"><br>
-                <input type="submit" value="Submit">
+        <div class="question-section">
+            <div class="question">
+                <span id="question">Walk the Dog” is the name of a trick you could do using a ...</span>
             </div>
-
-        </form>
+            <div class="choices">
+                <span id="choice1">Deck of cards</span>
+            </div>
+            <div class="choices">
+                <span id="choice2">Yo-Yo</span>
+            </div>
+            <div class="choices">
+                <span id="choice3">Beyblade</span>
+            </div>
+            <div class="choices">
+                <span id="choice4">Bicycle</span>
+            </div>
+            <button class="submit-button">Submit</button>
+        </div>
     </div>
 
     <!-- Bootstrap JavaScript Libraries -->

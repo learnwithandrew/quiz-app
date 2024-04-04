@@ -52,11 +52,16 @@
     margin-top: 1.5rem;
 }
 
-.quiz-section form {
+.quiz-section .question-section {
     width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.quiz-section #question {
+.quiz-section .question {
+    margin-bottom: 1rem;
     width: 100%;
     text-align: center;
     height: 50px;
@@ -66,6 +71,9 @@
     font-weight: 800;
     color: #000;
     border: 1px solid #393A3C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .quiz-section .choices {
@@ -79,18 +87,13 @@
     color: #fff;
     border: 1px solid #7EB9E3;
     background-color: #7EB9E3;
-}
-
-.quiz-section .question-choices {
-    margin: 0 auto;
+    margin-top: 1rem;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    justify-content: center;
 }
 
-.quiz-section input[type="submit"] {
+.quiz-section .submit-button {
     width: 80%;
     height: 45px;
     background-color: #393A3C;
