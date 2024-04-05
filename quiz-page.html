@@ -53,24 +53,24 @@
     </nav>
 
     <div class="quiz-section">
-        <div class="question-section">
-            <div class="question">
+        <ul class="question-section" id="quiz-section">
+            <li class="question">
                 <span id="question">Walk the Dog” is the name of a trick you could do using a ...</span>
-            </div>
-            <div class="choices">
+            </li>
+            <li class="choices">
                 <span id="choice1">Deck of cards</span>
-            </div>
-            <div class="choices">
+            </li>
+            <li class="choices">
                 <span id="choice2">Yo-Yo</span>
-            </div>
-            <div class="choices">
+            </li>
+            <li class="choices">
                 <span id="choice3">Beyblade</span>
-            </div>
-            <div class="choices">
+            </li>
+            <li class="choices">
                 <span id="choice4">Bicycle</span>
-            </div>
-            <button class="submit-button">Submit</button>
-        </div>
+            </li>
+            <button class="submit-button" id="submit">Submit</button>
+        </ul>
     </div>
 
     <!-- Bootstrap JavaScript Libraries -->
@@ -81,6 +81,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
+    <!-- local javascript files -->
+    <script src="/data/db.json"></script>
+    <script type="module" src="/assets/js/quiz-page.js"></script>
 </body>
 
 </html>

@@ -33,6 +33,7 @@ const quizData = [
     },
 ];
 
+// DOM manipulation
 const quiz = document.getElementById("quiz");
 const answerElements = document.querySelectorAll(".answer");
 const questionElement = document.getElementById("question");
