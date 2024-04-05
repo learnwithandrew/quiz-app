@@ -53,21 +53,25 @@
     </nav>
 
     <div class="quiz-section">
-        <ul class="question-section" id="quiz-section">
+        <ul class="question-section" id="quiz">
             <li class="question">
                 <span id="question">Walk the Dog” is the name of a trick you could do using a ...</span>
             </li>
-            <li class="choices">
-                <span id="choice1">Deck of cards</span>
+            <li>
+                <input type="radio" name="choices" id="choice_1" class="choice" />
+                <label for="choice_1" id="choice1">Yo-Yo</label>
             </li>
-            <li class="choices">
-                <span id="choice2">Yo-Yo</span>
+            <li>
+                <input type="radio" name="choices" id="choice_2" class="choice" />
+                <label for="choice_2" id="choice2">Beyblade...</label>
             </li>
-            <li class="choices">
-                <span id="choice3">Beyblade</span>
+            <li>
+                <input type="radio" name="choices" id="choice_3" class="choice" />
+                <label for="choice_3" id="choice3">Contemporary</label>
             </li>
-            <li class="choices">
-                <span id="choice4">Bicycle</span>
+            <li>
+                <input type="radio" name="choices" id="choice_4" class="choice" />
+                <label for="choice_4" id="choice4">Braybad</label>
             </li>
             <button class="submit-button" id="submit">Submit</button>
         </ul>
@@ -83,7 +87,7 @@
         crossorigin="anonymous"></script>
     <!-- local javascript files -->
     <script src="/data/db.json"></script>
-    <script type="module" src="/assets/js/quiz-page.js"></script>
+    <script src="/assets/js/quiz-page.js"></script>
 </body>
 
 </html>
